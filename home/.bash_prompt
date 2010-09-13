@@ -1,0 +1,6 @@
+# This will limit the path to 30 characters.
+#PROMPT_COMMAND=’if [ ${#PWD} -gt 30 ]; then myPWD=${PWD:0:12}…${PWD:${#PWD}-15}; else myPWD=$PWD; fi’
+#PS1=”\u@\h \$myPWD\$ ”
+
+#title=>full path, promt=>[git branch] last dir
+PS1='\[\033]0;\w\007\][`__git_ps1`] \W\$ '
