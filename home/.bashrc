@@ -105,8 +105,8 @@
 # export PATH=$PATH:$JAVA_HOME/bin
 
 
-if [ -f ~/.bash_git ]; then
-    . ~/.bash_git
-fi
-
-if test -s "/Users/matt/.profile" ; then . "/Users/matt/.profile" ; fi
+# if [ -f ~/.bash_git ]; then
+#     . ~/.bash_git
+# fi
+# 
+# if test -s "/Users/matt/.profile" ; then . "/Users/matt/.profile" ; fi
