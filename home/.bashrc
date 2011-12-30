@@ -113,11 +113,12 @@ if [ -f ~/.profile_svn ]; then
     . ~/.profile_svn
 fi
 
-if [ -f ~/.bash_ruby ]; then
-    . ~/.bash_ruby
+if [ -f ~/.profile_ruby ]; then
+    . ~/.profile_ruby
 fi
 
 if [ -f ~/.bash_rails ]; then
     . ~/.bash_rails
 fi
 
+if test -s "/Users/matt/.profile" ; then . "/Users/matt/.profile" ; fi
