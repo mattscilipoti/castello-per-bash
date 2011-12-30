@@ -18,7 +18,3 @@ fi
 complete -o default -o nospace -F _git_branch gb
 complete -o default -o nospace -F _git_checkout gco
 
-
-if [ -f ~/.profile-git ]; then
-    source ~/.profile-git
-fi
